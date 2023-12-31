@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm weiwei</h1>
+<h1 align="center">Hi 👋, I'm Haowei</h1>
 <h3 align="center">Welcome to my github webpage!</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=whw23&label=Profile%20views&color=0e75b6&style=flat" alt="whw23" /> </p>
