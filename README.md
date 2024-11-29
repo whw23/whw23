@@ -1,6 +1,5 @@
 <h1 align="center">Hi 👋, I'm Haowei</h1>
-<h3 align="center">Welcome to my github webpage!</h3>
-<a href="https://whw23.github.io/whw23/aboutme/">About me / 访问我的关于页面</a>
+<h3 align="center">Welcome to my github webpage! <a href="https://whw23.github.io/whw23/aboutme/" style="text-align: center;">About me</a></h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=whw23&label=Profile%20views&color=0e75b6&style=flat" alt="whw23" /> </p>
 
