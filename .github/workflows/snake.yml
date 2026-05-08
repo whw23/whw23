@@ -29,18 +29,28 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: whw23
 
-      - name: Move 3D graph to dist
+      - name: Move 3D graphs to dist
         run: |
-          mv ./profile-3d-contrib/profile-night-green.svg ./dist/profile-3d-contrib.svg || true
+          mv ./profile-3d-contrib/profile-green.svg ./dist/profile-3d-contrib-light.svg || true
+          mv ./profile-3d-contrib/profile-night-green.svg ./dist/profile-3d-contrib-dark.svg || true
 
-      - name: Download stats cards
+      - name: Download stats cards (light theme)
         run: |
-          curl --retry 3 --max-time 30 -o ./dist/github-stats.svg "https://github-readme-stats-sigma-five.vercel.app/api?username=whw23&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" || true
-          curl --retry 3 --max-time 30 -o ./dist/top-langs.svg "https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=whw23&layout=compact&theme=tokyonight&hide_border=true" || true
-          curl --retry 3 --max-time 30 -o ./dist/github-streak.svg "https://streak-stats.demolab.com/?user=whw23&theme=tokyonight&hide_border=true" || true
-          curl --retry 3 --max-time 30 -o ./dist/activity-graph.svg "https://github-readme-activity-graph.vercel.app/graph?username=whw23&theme=tokyo-night&hide_border=true" || true
-          curl --retry 3 --max-time 30 -o ./dist/contributor-stats.svg "https://github-contributor-stats.vercel.app/api?username=whw23&limit=5&theme=tokyonight&combine_all_yearly_contributions=true&hide_border=true" || true
-          curl --retry 3 --max-time 30 -o ./dist/quote.svg "https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" || true
+          curl --retry 3 --max-time 30 -o ./dist/github-stats-light.svg "https://github-readme-stats-sigma-five.vercel.app/api?username=whw23&show_icons=true&theme=default&hide_border=true&count_private=true" || true
+          curl --retry 3 --max-time 30 -o ./dist/top-langs-light.svg "https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=whw23&layout=compact&theme=default&hide_border=true" || true
+          curl --retry 3 --max-time 30 -o ./dist/github-streak-light.svg "https://streak-stats.demolab.com/?user=whw23&theme=default&hide_border=true" || true
+          curl --retry 3 --max-time 30 -o ./dist/activity-graph-light.svg "https://github-readme-activity-graph.vercel.app/graph?username=whw23&theme=github-light&hide_border=true" || true
+          curl --retry 3 --max-time 30 -o ./dist/contributor-stats-light.svg "https://github-contributor-stats.vercel.app/api?username=whw23&limit=5&theme=default&combine_all_yearly_contributions=true&hide_border=true" || true
+          curl --retry 3 --max-time 30 -o ./dist/quote-light.svg "https://quotes-github-readme.vercel.app/api?type=horizontal&theme=default" || true
+
+      - name: Download stats cards (dark theme)
+        run: |
+          curl --retry 3 --max-time 30 -o ./dist/github-stats-dark.svg "https://github-readme-stats-sigma-five.vercel.app/api?username=whw23&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" || true
+          curl --retry 3 --max-time 30 -o ./dist/top-langs-dark.svg "https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=whw23&layout=compact&theme=tokyonight&hide_border=true" || true
+          curl --retry 3 --max-time 30 -o ./dist/github-streak-dark.svg "https://streak-stats.demolab.com/?user=whw23&theme=tokyonight&hide_border=true" || true
+          curl --retry 3 --max-time 30 -o ./dist/activity-graph-dark.svg "https://github-readme-activity-graph.vercel.app/graph?username=whw23&theme=tokyo-night&hide_border=true" || true
+          curl --retry 3 --max-time 30 -o ./dist/contributor-stats-dark.svg "https://github-contributor-stats.vercel.app/api?username=whw23&limit=5&theme=tokyonight&combine_all_yearly_contributions=true&hide_border=true" || true
+          curl --retry 3 --max-time 30 -o ./dist/quote-dark.svg "https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" || true
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4

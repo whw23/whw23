@@ -48,6 +48,8 @@
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
+<img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" alt="Lua" />
 <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
 <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
@@ -137,14 +139,26 @@
 
 <div align="center">
 
-<img width="49%" src="https://raw.githubusercontent.com/whw23/whw23/output/github-stats.svg" alt="GitHub Stats" />
-<img width="49%" src="https://raw.githubusercontent.com/whw23/whw23/output/github-streak.svg" alt="GitHub Streak" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/whw23/whw23/output/github-stats-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/whw23/whw23/output/github-stats-light.svg" />
+  <img width="49%" src="https://raw.githubusercontent.com/whw23/whw23/output/github-stats-light.svg" alt="GitHub Stats" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/whw23/whw23/output/github-streak-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/whw23/whw23/output/github-streak-light.svg" />
+  <img width="49%" src="https://raw.githubusercontent.com/whw23/whw23/output/github-streak-light.svg" alt="GitHub Streak" />
+</picture>
 
 </div>
 
 <div align="center">
 
-<img width="40%" src="https://raw.githubusercontent.com/whw23/whw23/output/top-langs.svg" alt="Top Languages" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/whw23/whw23/output/top-langs-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/whw23/whw23/output/top-langs-light.svg" />
+  <img width="40%" src="https://raw.githubusercontent.com/whw23/whw23/output/top-langs-light.svg" alt="Top Languages" />
+</picture>
 
 </div>
 
@@ -154,7 +168,11 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/whw23/whw23/output/activity-graph.svg" alt="Activity Graph" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/whw23/whw23/output/activity-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/whw23/whw23/output/activity-graph-light.svg" />
+  <img src="https://raw.githubusercontent.com/whw23/whw23/output/activity-graph-light.svg" alt="Activity Graph" />
+</picture>
 
 </div>
 
@@ -164,7 +182,11 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/whw23/whw23/output/profile-3d-contrib.svg" alt="3D Contribution Graph" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/whw23/whw23/output/profile-3d-contrib-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/whw23/whw23/output/profile-3d-contrib-light.svg" />
+  <img src="https://raw.githubusercontent.com/whw23/whw23/output/profile-3d-contrib-light.svg" alt="3D Contribution Graph" />
+</picture>
 
 </div>
 
@@ -174,7 +196,11 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/whw23/whw23/output/contributor-stats.svg" alt="Contributor Stats" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/whw23/whw23/output/contributor-stats-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/whw23/whw23/output/contributor-stats-light.svg" />
+  <img src="https://raw.githubusercontent.com/whw23/whw23/output/contributor-stats-light.svg" alt="Contributor Stats" />
+</picture>
 
 </div>
 
@@ -184,7 +210,11 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/whw23/whw23/output/quote.svg" alt="Dev Quote" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/whw23/whw23/output/quote-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/whw23/whw23/output/quote-light.svg" />
+  <img src="https://raw.githubusercontent.com/whw23/whw23/output/quote-light.svg" alt="Dev Quote" />
+</picture>
 
 </div>
 
