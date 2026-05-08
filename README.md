@@ -1,3 +1,6 @@
+<!-- Header -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=120&section=header" />
+
 <div align="center">
 
 <!-- Typing SVG -->
@@ -134,14 +137,14 @@
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=whw23&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-<img width="49%" src="https://github-readme-streak-stats.demolab.com/?user=whw23&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+<img width="49%" src="https://raw.githubusercontent.com/whw23/whw23/output/github-stats.svg" alt="GitHub Stats" />
+<img width="49%" src="https://raw.githubusercontent.com/whw23/whw23/output/github-streak.svg" alt="GitHub Streak" />
 
 </div>
 
 <div align="center">
 
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=whw23&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+<img width="40%" src="https://raw.githubusercontent.com/whw23/whw23/output/top-langs.svg" alt="Top Languages" />
 
 </div>
 
@@ -151,7 +154,17 @@
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=whw23&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<img src="https://raw.githubusercontent.com/whw23/whw23/output/activity-graph.svg" alt="Activity Graph" />
+
+</div>
+
+---
+
+## 🧊 3D Contribution Graph
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/whw23/whw23/output/profile-3d-contrib.svg" alt="3D Contribution Graph" />
 
 </div>
 
@@ -161,7 +174,7 @@
 
 <div align="center">
 
-<img src="https://github-contributor-stats.vercel.app/api?username=whw23&limit=5&theme=tokyonight&combine_all_yearly_contributions=true&hide_border=true" alt="Contributor Stats" />
+<img src="https://raw.githubusercontent.com/whw23/whw23/output/contributor-stats.svg" alt="Contributor Stats" />
 
 </div>
 
@@ -171,7 +184,7 @@
 
 <div align="center">
 
-[![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)](https://github.com/piyushsuthar/github-readme-quotes)
+<img src="https://raw.githubusercontent.com/whw23/whw23/output/quote.svg" alt="Dev Quote" />
 
 </div>
 
@@ -188,3 +201,6 @@
 </picture>
 
 </div>
+
+<!-- Footer -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=120&section=footer" />

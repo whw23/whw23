@@ -1,8 +1,10 @@
-name: Generate snake animation
+name: Generate profile cards
 
 on:
   schedule:
     - cron: "0 18 * * *"
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -20,6 +22,25 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Generate 3D contribution graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: whw23
+
+      - name: Move 3D graph to dist
+        run: |
+          mv ./profile-3d-contrib/profile-night-green.svg ./dist/profile-3d-contrib.svg || true
+
+      - name: Download stats cards
+        run: |
+          curl --retry 3 --max-time 30 -o ./dist/github-stats.svg "https://github-readme-stats-sigma-five.vercel.app/api?username=whw23&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" || true
+          curl --retry 3 --max-time 30 -o ./dist/top-langs.svg "https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=whw23&layout=compact&theme=tokyonight&hide_border=true" || true
+          curl --retry 3 --max-time 30 -o ./dist/github-streak.svg "https://streak-stats.demolab.com/?user=whw23&theme=tokyonight&hide_border=true" || true
+          curl --retry 3 --max-time 30 -o ./dist/activity-graph.svg "https://github-readme-activity-graph.vercel.app/graph?username=whw23&theme=tokyo-night&hide_border=true" || true
+          curl --retry 3 --max-time 30 -o ./dist/contributor-stats.svg "https://github-contributor-stats.vercel.app/api?username=whw23&limit=5&theme=tokyonight&combine_all_yearly_contributions=true&hide_border=true" || true
+          curl --retry 3 --max-time 30 -o ./dist/quote.svg "https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" || true
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
